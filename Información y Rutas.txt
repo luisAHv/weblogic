@@ -1,0 +1,155 @@
+SharePoint Calendario de Release 
+https://consumershare.nam.citi.net/sites/concamaf/default.aspx?FollowSite=1&SiteName=Release%20Afore%20Bnmx%20Sistemas%20Internos
+
+ALM- Pruebas de Desarrollo y Usuario
+https://qc.nam.nsroot.net:650/qcbin/start_a.jsp
+
+SCM Service Management Suite - Production- Cambios 
+https://servicemanagement.citigroup.net/
+https://servicemanagement.citigroup.net/navpage.do
+
+Números de CR para UAT 
+CHG0002619631-> EDOCTA
+CHG0002622681-> INF SAL 
+
+Números de CR para Producción 
+CHG0002619761 --  Info de saldos
+CHG0002569983  -- Estados de Cuenta 
+
+RTC -> Documentación y Componentes para instalación 
+https://rtc.nam.nsroot.net/gcg/web/projects/Afore-Banamex#action=com.ibm.team.scm.showStreams
+Para entrar a los proyectos se debe solicitar acceso al equipo de Control de Cambios 
+
+Rutas Generales RTC
+Ruta para colocar documentación 
+	Source Control > Streams > 160922-Dis_Gracion_Docs > com.citi.afore.mx.doc1_docs > 
+
+Ruta para depositar componentes de instalación 
+	Source Control > Streams > 160922-Dis_Gracion_Docs > com.citi.afore.mx.doc1.no_java > 
+
+Rutas de documentación de emisión 1Q2018
+	Estado de Cuenta 
+		Source Control > Streams > 160922-Dis_Gracion_Docs > com.citi.afore.mx.doc1_docs > Docs > DOC84_CHG0002619631
+	Informe de Saldos 
+		Source Control > Streams > 160922-Dis_Gracion_Docs > com.citi.afore.mx.doc1_docs > Docs > DOC84_CHG0002619631	
+
+Rutas de instalación de emisión 1Q2018 Producción
+	Estado de Cuenta
+		Source Control > Streams > 160922-Dis_Gracion_Docs > com.citi.afore.mx.doc1.no_java > Doc1 > EstadoCuenta > 1Q18
+	Informe de Saldos 
+		Source Control > Streams > 160922-Dis_Gracion_Docs > com.citi.afore.mx.doc1.no_java > Doc1 > InformeSaldos > 1Q18
+
+Servidores de Desarollo 
+Windows
+	Servidor: VM-3090-A9C9
+	Usuario: VM-3090-A9C9\citiadmin
+	Contraseña : 3Lbgktlj
+	Ruta e2Vault: C:\Program Files (x86)\PBBI CCM\Vault\
+
+Nuevo Servidor:
+        Windows Servidor: sd-dbf2-0de5
+	Nuevo Servidor:
+        Windows Servidor: sd-dbf2-0de5\citiadmin
+	Contraseña : zVvfdm9u
+	Ruta e2Vault: C:\Program Files (x86)\PBBI CCM\Vault
+
+	
+Linux 
+	Servidor: vm-cba2-74b0.nam.nsroot.net 
+	Usuario: root
+	Contraseña: 7fpa3JgP (Cambia continuamente)
+	Ruta generate: /export/opt/Generate/
+	
+Servidores de UAT 
+	Windows Servidor: GTNAFOUATAPW2
+	Ruta e2Vault: C:\Program Files (x86)\PBBI CCM\Vault\
+	
+	Linux Servidor: AFOTLAP1
+	Ruta generate: /export/opt/middleware/Generate/
+
+Servidores de Producción:
+	Windows Servidor: LACMXQRAFOAPW3  
+	Ruta e2Vault: D:\Vault\
+
+
+	Linux Servidor: AFOPLAP1
+	Ruta generate: /export/opt/middleware/Generate/
+
+Seridor de COB:
+	Windows: LACGTNAFOCAPW3
+	Ruta e2Vault: d:\Vault\
+
+\\Vm-3090-a9c9\DOC1
+
+
+liga de JAzz
+http://cateeclipseplugins.nam.nsroot.net:20211/xcweb/catesite/rtc/5.0.2W 
+
+
+
+
+
+Herraminetas
+1)https://qc.nam.nsroot.net:650/qcbin/start_a.jsp
+2)https://servicemanagement.citigroup.net/ess/
+3)https://qc.nam.nsroot.net:650/qcbin/start_a.jsp
+
+
+
+https://awweb1dev.nam.nsroot.net/Generales.html
+https://rtc.nam.nsroot.net/gcg/web/projects/Afore-Banamex#action=com.ibm.team.scm.browseElement&workspaceItemId=_lH1B0IcUEeS4z4i0RVKT-w&componentItemId=_ysXHABRwEeWPv5BL2WTGwg&itemType=com.ibm.team.scm.Folder&itemId=_VLJ58HNUEeit2oLswUs0OA
+
+rutas de gabo
+
+https://citiautomationservices.citigroup.net/crp/cloudServicesDashboard.jsp
+
+https://awweb1dev.nam.nsroot.net/Generales.html
+
+
+
+Buenas tardes
+
+Se encuentra la estructura creada en la siguiente ruta, favor de ejecutar las pruebas y cargar las evidencias en QC.
+
+https://qc.nam.nsroot.net:650/qcbin/start_a.jsp
+
+TEST LAB
+•         ROOT
+•         Monthly Release
+•         2018.06_T_MEX_XPR_ALL
+•         GCG
+•         Afore
+•	X-INC0053639319-Afore SI - AFORE Error en la carga de archivos con NSS virtual o nulo
+•	SIT
+•	Pruebas de Desarrollo
+
+
+Change
+
+INC0053739708 
+
+Request(Solicitud) para las fuentes
+
+REQU0005342441
+
+plantillas para el brd y otros
+https://consumershare.nam.citi.net/sites/GCTBPSUP/Document%20Templates/Forms/AllItems.aspx
+version de linux
+# cat /etc/*-release
+
+
+
+rutas de portal
+
+Z:\MASV\Del Escritorio\P0065808_CHG0000736721\Propios
+
+\\MEXVNASCTI0007\File Server Afore DEV\MASV\Del Escritorio\P0065808_CHG0000736721\Propios
+
+Weblogic Portable ejecución
+
+http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/wls_12c_netbeans_install/wls_12c_netbeans_install.html
+
+\\MEXVNASCTI0007\File Server Afore DEV\MASV\Del Escritorio\P0065808_CHG0000736721\Propios
+
+INSERT DATSO EN HISTORICO
+INSERT INTO TBL_HISTORICO_EDOCTA VALUES('HEVL900725HFDRLS03','10/08/2018','hvbeto90gmail.com',5,1);
